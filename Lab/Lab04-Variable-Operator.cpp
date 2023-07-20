@@ -37,7 +37,7 @@ int main() {
     printf("Plaes Enter working hour: " ) ;
     scanf("%f",&work_hr ) ;
 
-    printf("Plaes Enter salary : " ) ;
+    printf("Plaes Enter salary: " ) ;
     scanf("%f", &work_hr );
 
     printf("Expected Output:\n") ;
