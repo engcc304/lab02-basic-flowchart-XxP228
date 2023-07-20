@@ -28,8 +28,20 @@
 #include <stdio.h>
 
 int main() {
+    char Employees_ID[10] ;
+    float work_hr = 0 ;
+    float salary = 0 ;
+    printf( "Plaes Enter ID: " ) ;
+    scanf("%s",Employees_ID ) ;
 
-    //--| YOUR CODE HERE
+    printf("Plaes Enter working hour: " ) ;
+    scanf("%f",&work_hr ) ;
 
+    printf("Plaes Enter salary : " ) ;
+    scanf("%f", &work_hr );
+
+    printf("Expected Output:\n") ;
+    printf("Employees ID = %s\n", Employees_ID) ;
+    printf("Salary = U$ %0.2f", salary * work_hr );
     return 0 ;
 }//end main function
